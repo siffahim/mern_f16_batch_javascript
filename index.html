@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Html comment-->
+</head>
+<body>
+    
+   
+
+
+    <script>
+        // calculate the age
+        /* multiple line */
+
+       /* document.write("I love Bangladesh <br/>");
+        document.write("0152120201 <br/>");
+        document.write("Dhaka"); */
+
+        var name = "Bdcalling";
+        var age = 300;
+        var country = "Dhaka";
+
+        var x = 10;
+        var y = 20;
+        var sum = x + y;
+
+       //sum = sum + 30;
+        sum += 30;
+
+        document.write("Result: "+sum + "<br/>");
+
+
+
+        //document.write("Name: " + name + "<br/>");
+        //document.write("AGE: " + age  + "<br/>");
+        //document.write(country);
+
+        var day = new Date().getDay();
+
+
+switch(day){
+    case 0:
+        document.write("Sunday");
+        break;
+    case 1:
+        document.write("<h1>Monday</h1>");
+        break;
+    case 2:
+        document.write("Tuesday");
+        break;
+    case 3:
+        document.write("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        document.write("Friday");
+        break;
+    case 6:
+        document.write("Saturday");
+        break;
+    default:
+        document.write("No day found");
+}
+
+    </script>
+   <script src="./guessing_number.js"></script>
+    
+</body>
+</html>
